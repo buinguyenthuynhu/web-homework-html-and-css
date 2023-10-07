@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+header{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    color: #359381;
+    pointer-events: none;
+    font-size: 2em;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px ;
+    border-radius: 20px;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+
+/*------------parallax-------------*/
+
+.parallax{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.parallax img{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4em;
+    color: #003329;
+}
+
+.about{
+    position: relative;
+    padding: 100px;
+    background: #003329;
+}
+
+.about h1{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.about p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}

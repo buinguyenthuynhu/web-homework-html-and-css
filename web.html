@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Fieldset>Mint World</Fieldset></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Mintie</h2>
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Events</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+    <!--parallax-->
+    <section class="parallax">
+         <h2 id="text">Welcome</h2>
+         <img src="hill4.png" id="hill4">
+         <img src="hill2.png" id="hill2">
+         <img src="plant.png" id="plant">
+    </section>
+    <!--About-->
+    <section class="about">
+          <h1>Parallax Scrolling Website</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iure sit explicabo earum 
+            nam hic consequuntur similique minima, sequi iusto, nobis quam maiores perferendis? Eaque, 
+            exercitationem, id maiores sint, ad nisi nesciunt excepturi adipisci aut animi reiciendis 
+            voluptatum deserunt fuga velit in omnis saepe vero deleniti eos reprehenderit aliquam! Ipsum 
+            earum veritatis laboriosam exercitationem suscipit voluptate porro. Ipsa reprehenderit excepturi
+             veniam, quis laboriosam sint odio obcaecati voluptas similique non alias. Dolore iure tenetur 
+             minus molestiae atque officia, eos adipisci quisquam autem, consequuntur rerum non dignissimos
+              temporibus reiciendis amet sit! Voluptatum provident nam consequuntur fuga architecto ipsum
+               eos quos? Repudiandae recusandae impedit, unde inventore sed odit expedita quisquam quae, 
+               mollitia dignissimos accusamus sit minus eligendi accusantium libero sint? Natus ea, tempora
+                quos fugiat atque expedita vero voluptates voluptas!
+            <br> <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iure sit explicabo earum 
+            nam hic consequuntur similique minima, sequi iusto, nobis quam maiores perferendis? Eaque, 
+            exercitationem, id maiores sint, ad nisi nesciunt excepturi adipisci aut animi reiciendis 
+            voluptatum deserunt fuga velit in omnis saepe vero deleniti eos reprehenderit aliquam! Ipsum 
+            earum veritatis laboriosam exercitationem suscipit voluptate porro. Ipsa reprehenderit excepturi
+             veniam, quis laboriosam sint odio obcaecati voluptas similique non alias. Dolore iure tenetur 
+             minus molestiae atque officia, eos adipisci quisquam autem, consequuntur rerum non dignissimos
+              temporibus reiciendis amet sit! Voluptatum provident nam consequuntur fuga architecto ipsum
+               eos quos? Repudiandae recusandae impedit, unde inventore sed odit expedita quisquam quae, 
+               mollitia dignissimos accusamus sit minus eligendi accusantium libero sint? Natus ea, tempora
+                quos fugiat atque expedita vero voluptates voluptas!
+            <br> <br>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci iure sit explicabo earum 
+            nam hic consequuntur similique minima, sequi iusto, nobis quam maiores perferendis? Eaque, 
+            exercitationem, id maiores sint, ad nisi nesciunt excepturi adipisci aut animi reiciendis 
+            voluptatum deserunt fuga velit in omnis saepe vero deleniti eos reprehenderit aliquam! Ipsum 
+            earum veritatis laboriosam exercitationem suscipit voluptate porro. Ipsa reprehenderit excepturi
+             veniam, quis laboriosam sint odio obcaecati voluptas similique non alias. Dolore iure tenetur 
+             minus molestiae atque officia, eos adipisci quisquam autem, consequuntur rerum non dignissimos
+              temporibus reiciendis amet sit! Voluptatum provident nam consequuntur fuga architecto ipsum
+               eos quos? Repudiandae recusandae impedit, unde inventore sed odit expedita quisquam quae, 
+               mollitia dignissimos accusamus sit minus eligendi accusantium libero sint? Natus ea, tempora
+                quos fugiat atque expedita vero voluptates voluptas!
+            <br> <br>
+            </p>
+    </section>
+    <!-----Rolling effect ----->
+    <script>
+      let text = document.getElementById('text')
+      let hill4 = document.getElementById('hill4')
+      let hill2 = document.getElementById('hill2')
+      let plant = document.getElementById('plant')
+      window.addEventListener('scroll',() => {
+        let value = window.scrollY;
+        text.style.marginTop= value * 2.5 + 'px';
+      });
+
+    </script>
+
+     <!-----Footer Section-------------->
+
+</body>
+</html>
